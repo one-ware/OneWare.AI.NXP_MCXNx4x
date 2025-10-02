@@ -1,0 +1,45 @@
+{
+    "configurationName": "NXP_MCXNx4x",
+    "hardwareType": "MCU",
+    "prioritizeSpeedOptimization": false,
+    "dspGroups": 1,
+    "prioritizeMemoryOptimization": false,
+    "memoryLimitUnit": "KB",
+    "optimizeForParallelExecution": true,
+    "quantizedCalculations": true,
+    "bitsPerValue": 8,
+    "types": [
+        {
+            "name": "MCXNx47 CPU (Arm Cortex-M33)",
+            "computeCapability": 150,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 1,
+            "memoryLimit": 512,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "MCXNx46 CPU (Arm Cortex-M33)",
+            "computeCapability": 150,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 1,
+            "memoryLimit": 352,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "MCXNx47 NPU (eIQ Neutron)",
+            "computeCapability": 4800,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 1,
+            "memoryLimit": 512,
+            "memoryLimitUnit": "KB"
+        },
+        {
+            "name": "MCXNx46 NPU (eIQ Neutron)",
+            "computeCapability": 4800,
+            "computeCapabilityUnit": "MOPS",
+            "dspBlocks": 1,
+            "memoryLimit": 352,
+            "memoryLimitUnit": "KB"
+        }
+    ]
+},
