@@ -1,5 +1,6 @@
 {
     "configurationName": "NXP_MCXNx4x",
+    "displayName": "NXP MCXNx4x",
     "hardwareType": "MCU",
     "prioritizeSpeedOptimization": false,
     "dspGroups": 1,
